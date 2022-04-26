@@ -9,8 +9,13 @@ class PhoneBookTest(unittest.TestCase):
         phonebook.add("Bob", "12345")
         number = phonebook.lookup("Bob")
         self.assertEqual("12345", number)
+        
+        
 #Sample for testing
 #        self.assertEqual(3,4)
+
+#Need to check for consistancy
+    #Number same as the other or prefix of another number?? How to check for this
 
 # Main needs to be added for unitest pyhon -m unittest to pick up the test file.
 # install the correct extension Python from Microsoft
