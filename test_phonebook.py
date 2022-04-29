@@ -24,7 +24,9 @@ class PhoneBookTest(unittest.TestCase):
     def test_empty_phonebook_is_consistent(self):
         self.assertTrue(self.phonebook.is_consistent())     
         
+        
     #Poor Unit Test Design below.
+    @unittest.skip("WIP")
     def test_is_consistent(self):
          self.phonebook.add("Bob", "12345")
          self.assertTrue(self.phonebook.is_consistent())     
